@@ -1,0 +1,40 @@
+html{
+  background-color:#7123d1;
+
+  /*
+    Black: #000000 / #000
+    White: #ffffff / #fff
+    Red: #ff0000
+    Blue: #0000ff / #00f
+    Grey: #ccc, #333
+    */
+
+    color: #fff;
+}
+
+h1{
+  color: limegreen;
+  font-weight:normal;
+  font-size: 4rem;
+  line-height: 1;
+  text-shadow: 2px -5px 10px #333;
+  font-family: 'Slabo 27px', serif;
+
+/* we do not ever want to set our font size in pixels. someone in poor vision, cannot make it bigger for them to see.
+  rem is the way to go, gives control to users.
+*/
+}
+
+p {
+  font-style: italic;
+  text-decoration:underline;
+  text-align: center; /*left, center, right, justify */
+  font-family: Arial,sans-serif;
+}
+
+ol {
+  list-style-type: none;
+  /*none
+  decimal, circle, lower-alpha, lower-roman, upper-alpha, upper-roman, square, disc*/
+padding: 0;
+}
